@@ -1,10 +1,11 @@
 from django.http import JsonResponse
 from django.shortcuts import render
+import urllib.request
+from bs4 import BeautifulSoup
 
 # Create your views here.
 def get_webtoonlink():
-    import urllib.request
-    from bs4 import BeautifulSoup
+
 
     __author__ = 'lsy2sy'
 
